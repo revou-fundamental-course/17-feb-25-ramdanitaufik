@@ -1,5 +1,8 @@
 /* Ini CSS Exsternal */
 
+body {
+    font-family: monospace
+}
 .main-header {
     display: flex;
     justify-content: space-between;
