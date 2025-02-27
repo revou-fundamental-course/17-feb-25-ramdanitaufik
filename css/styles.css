@@ -151,11 +151,6 @@ nav>a {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 200px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
 #our-package-section>header {
     height: 100px;
     align-content: center;
@@ -189,8 +184,8 @@ nav>a {
   height: 300px;
   align-content: center;
   text-align: center;
-  color: #f2f2f2;
   background-color: grey;
+  font-size: 20px;
 
 }
 
@@ -213,4 +208,9 @@ footer {
     text-align: center;
     font-size: 15px;
     color: rgb(255, 255, 255);
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 200px) {
+  .prev, .next,.text {font-size: 11px}
 }
